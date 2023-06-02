@@ -89,7 +89,7 @@ main::after {
 /* Chat */
 #chat_phone_layout {
   position: absolute;
-  top: 1rem;
+  top: 0;
   width: 11.6rem;
   height: 73.4vh;
   display: flex;
