@@ -1,0 +1,121 @@
+/* General */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+/* Colors */
+.colors {
+  background-color: hsl(270, 7%, 64%);
+  background-color: hsl(271, 15%, 43%);
+  background-color: C;
+  background-color: C;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0, 0%, 100%);
+  font-family: "Rubik", sans-serif;
+}
+main {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.chat_left {
+  padding: 0.5rem;
+  width: 10rem;
+  font-size: 1rem;
+  background-color: hsl(270, 8%, 90%);
+  color: hsl(276, 55%, 52%);
+}
+.chat_right {
+  padding: 0.5rem;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(271, 15%, 43%);
+}
+/* Main */
+#main_page {
+  display: flex;
+  justify-content: space-between;
+}
+.shape {
+  width: 63vw;
+  height: 86vh;
+  border-bottom-right-radius: 280px;
+  border-bottom-left-radius: 280px;
+  position: relative;
+  left: -4rem;
+  background: linear-gradient(
+    25deg,
+    hsl(264, 100%, 61%) 30%,
+    hsl(293, 100%, 63%)
+  );
+}
+#main_page_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_page_content {
+  width: 50%;
+  margin: 1.5rem 1rem 0 1rem;
+}
+.main_page_content h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  color: hsl(271, 36%, 24%);
+}
+.main_page_content p {
+  font-size: 0.8rem;
+  color: hsl(270, 7%, 64%);
+  line-height: 1.3rem;
+}
+main::after {
+  content: "";
+  position: absolute;
+  width: 34vw;
+  height: 83vh;
+  background: hsl(206, 6%, 94%);
+  border-radius: 250px 250px 0 0;
+  bottom: 0;
+  right: 4rem;
+  transform: translateX(50%);
+  z-index: -1;
+}
+/* Chat */
+#chat_phone_layout {
+  position: absolute;
+  top: 0;
+  width: 11.6rem;
+  height: 73.4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 23px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#chat_container {
+  background-color: hsl(270, 20%, 96%);
+  width: 94%;
+  height: 96%;
+  border-radius: 23px;
+}
+/* MideaQ */
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 0;
+}
+.attribution {
+  font-size: 11px;
+  text-align: end;
+  margin: 0 1rem 0 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
