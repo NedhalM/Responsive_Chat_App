@@ -42,7 +42,7 @@ main {
   justify-content: space-between;
 }
 .shape {
-  width: 63vw;
+  width: 67vw;
   height: 86vh;
   border-bottom-right-radius: 280px;
   border-bottom-left-radius: 280px;
@@ -88,15 +88,18 @@ main::after {
 }
 /* Chat */
 #chat_phone_layout {
+  background-color: white;
   position: absolute;
-  top: 0;
+  top: 7rem;
+  left: 17.4rem;
   width: 11.6rem;
-  height: 73.4vh;
+  height: 72.3vh;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 23px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 100;
 }
 #chat_container {
   background-color: hsl(270, 20%, 96%);
