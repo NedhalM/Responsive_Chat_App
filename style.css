@@ -107,6 +107,46 @@ main::after {
   height: 96%;
   border-radius: 23px;
 }
+.chat_profile::before {
+  content: "";
+  width: 58%;
+  height: 5.5%;
+  background-color: white;
+  position: absolute;
+  top: 0.2rem;
+  right: 2.3rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.chat_profile {
+  height: 15%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0.7rem 0.5rem;
+  background: linear-gradient(
+    90deg,
+    hsl(264, 100%, 61%) 30%,
+    hsl(293, 100%, 63%)
+  );
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.chat_profile img {
+  width: 15%;
+  height: 55%;
+  border-radius: 80%;
+  border: 1px solid white;
+  object-fit: cover;
+}
+.chat_profile p {
+  font-size: 0.6rem;
+}
+.fa-chevron-left,
+.fa-ellipsis-vertical {
+  font-size: 0.7rem;
+}
 /* MideaQ */
 
 /* footer */
